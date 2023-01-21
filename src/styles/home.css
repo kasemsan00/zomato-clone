@@ -1,0 +1,175 @@
+.main {
+  width: 100%;
+  height: 250vh;
+  background-color: white;
+}
+.card-section {
+  margin-top: 6rem;
+  width: 100%;
+  display: inline-flex;
+  gap: 1.5rem;
+}
+.card {
+  border-radius: 15px;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 50%;
+  background: rgba(var(--card-rgb), 0);
+  transition: transform 0.2s;
+  cursor: pointer;
+  border: 1px solid #e3e3e3;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card-image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.5rem;
+}
+.card-desc {
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+}
+.searchSection {
+  display: flex;
+  width: 100%;
+  height: 35rem;
+  justify-content: center;
+}
+.search-image-background {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 35rem;
+}
+.search-title {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  height: calc(100vh - 25rem);
+}
+.zomato-title {
+  z-index: 100;
+  font-size: 5.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+.zomato-description {
+  z-index: 100;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+.search-input {
+  z-index: 100;
+  width: 48%;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.popular-section {
+  width: 100%;
+  height: 20rem;
+}
+.popular-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 2.6rem;
+  font-weight: lighter;
+}
+.popular-item {
+  padding: 10px;
+  width: 30%;
+  border: 1px solid #e3e3e3;
+  box-shadow: rgb(28 28 28 / 8%) 0px 1px 3px;
+}
+.popular-item-title {
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+.popular-item-desc {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.mobile-section {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.mobile-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.mobile-description {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-bottom: 1.5rem;
+}
+.mobile-input-email {
+  font-size: 1.1rem;
+  padding: 10px;
+  border: 1px solid #aba2a2;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  margin-bottom: 1.5rem;
+  outline: none;
+}
+.mobile-radio-title {
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+}
+.mobile-radio-group {
+  margin-bottom: 1.5rem;
+}
+.mobile-click-share-link {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ef4f5f;
+  color: white;
+}
+.download {
+  color: #aba2a2;
+}
+.explore-title {
+  margin-top: 1.5rem;
+  font-size: 1.9rem;
+}
+.explore-item {
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.explore-item-title {
+  font-size: 1.5rem;
+}
+.explore-item-desc {
+  font-size: 1.2rem;
+  margin-top: 1.7rem;
+}
