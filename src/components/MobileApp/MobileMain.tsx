@@ -24,11 +24,8 @@ export default function MobileMain() {
   const handleChangeText = (
     event: React.ChangeEvent<HTMLInputElement> | React.MouseEvent<HTMLInputElement>,
   ) => {
-    // if (event.target?.name === "email") {
-    //
-    // }
-    // if (event.target?.name === "phone") {
-    // }
+    const name = (event.target as HTMLInputElement).name;
+    setInput({ ...input, [name]: (event.target as HTMLInputElement).value });
   };
 
   return (

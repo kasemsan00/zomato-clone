@@ -1,14 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
 import Menu from "@/components/Menu/Menu";
 import MainSearch from "@/components/Menu/MainSearch";
 import Card from "@/components/Card/Card";
 import PopularMain from "@/components/Popular/PopularMain";
 import MobileMain from "@/components/MobileApp/MobileMain";
 import ExploreMain from "@/components/Explore/ExploreMain";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -36,6 +33,7 @@ export default function Home() {
         <div className="explore-section">
           <ExploreMain />
         </div>
+        <Footer />
       </main>
     </>
   );
